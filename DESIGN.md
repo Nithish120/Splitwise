@@ -1,10 +1,10 @@
 Splitwise clone
 
-AIM:
+# AIM:
 To track shared expenses within groups and compute who owes whom, allowing users to settle balances.
 
 
-SCOPE:
+# SCOPE:
 Create groups
 Add members to groups
 Add shared expenses
@@ -13,7 +13,7 @@ Compute balances (owe / owed)
 View per-group balances 
 
 
-CORE USE CASES:
+# CORE USE CASES:
 User creates a group
 User adds members to group
 User adds an expense
@@ -21,7 +21,7 @@ System calculates balances
 User views balances
 
 
-PAGES:
+# PAGES:
 (/home)home - shows groups, button to add group, 
 (/newgroup/)new group - name,members,
 (/group/<id>/)grouppage - show expenses, button to add expense,
