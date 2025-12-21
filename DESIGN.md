@@ -8,9 +8,9 @@ To track shared expenses within groups and compute who owes whom, allowing users
 1) Create groups
 2) Add members to groups
 3) Add shared expenses
-4) Support equal split (initially)
-5) Compute balances (owe / owed)
-6) View per-group balances 
+4) Support equal and unequal split (initially)
+6) Compute balances (owe / owed)
+7) View per-group balances 
 
 
 ## CORE USE CASES:
