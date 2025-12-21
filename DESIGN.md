@@ -8,7 +8,7 @@ To track shared expenses within groups and compute who owes whom, allowing users
 1) Create groups
 2) Add members to groups
 3) Add shared expenses
-4) Support equal split (initially)
+4) Support equal and exact amount split
 5) Compute balances (owe / owed)
 6) View per-group balances 
 
@@ -28,3 +28,4 @@ To track shared expenses within groups and compute who owes whom, allowing users
 4) (/group/<id>/about) groupdetails - show group members, how much they owe/to be receive
 5) (/newexpense/)new expense - name, amount, split type, add members 
 6) (/expense/<id>/)expensepage - show members paid/not status, show tot amt and rem bal,
+7) (/profile/) profile page- name, account, logout, delete account
