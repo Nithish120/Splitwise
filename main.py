@@ -9,6 +9,9 @@ app.mount("/Images", StaticFiles(directory="Images"), name="Images")
 
 @app.get("/")
 async def main():
+    return FileResponse("html/Sign.html")
+@app.get("/Homepage")
+async def homepage():
     return FileResponse("html/Splitwise.html")
 @app.get("/New_group")  
 async def new_group():
@@ -16,6 +19,9 @@ async def new_group():
 @app.get("/Contact")
 async def contact():
     return FileResponse("html/Contact.html")
+@app.get("/logi") 
+async def logi():
+    return FileResponse("html/Login_page.html")
 
 # gand=[{'id':1,'name':'Alice'},{'id':2,'name':'Bob'},{'id':3,'name':'Charlie'}]
 
